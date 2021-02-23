@@ -1,0 +1,86 @@
+body {
+    background-color: darkgray;
+}
+
+.profile-pic {    
+    width: 33%;
+    float: right;
+}
+
+.top-row {
+    margin-top: 32px;
+}
+
+.page-head {
+    /* background-image: linear-gradient(to right, lightblue , lightblue, white); */
+    background-color: lightblue;
+}
+
+.image-container {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+.image-fade {
+    opacity: 1;
+    /* display: block;
+    width: 100%;
+    height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+.image-container:hover .image-fade {
+    opacity: 0.3;
+  }
+  
+.image-container:hover .middle {
+    opacity: 1;
+  }
+  
+.middle-text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 15px;
+  }
+
+/* about section */
+/* ====================================== */
+.about-section {
+  background-color: white;
+}
+
+.skills-container {
+  background-color: white;
+}
+
+.about-heading {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.skill-card {
+  border-style: none;  
+}
+
+.skill-icon {
+  display: block;
+  margin:auto;
+  margin-top: 25px;
+}
+
+.card-title {
+  text-align: center;
+}

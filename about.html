@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russell McGrath Home</title>
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link " href="index.html">Home</a>
+            <a class="nav-item nav-link active" href="about.html">About Me <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="static/files/Russell McGrath - Resume.pdf">Resumé</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid page-head">
+        <div class="container">
+            <h1 class="display-4">About Me...</h1>
+            <p class="lead">Click a button to skip to a section:</p>          
+            <a class="btn btn-primary btn-lg" href="#skills" role="button">Skills</a>
+            <a class="btn btn-primary btn-lg" href="#career" role="button">Career Path</a>
+            <a class="btn btn-primary btn-lg" href="#interests" role="button">Other Interests</a>          
+        </div>
+    </div>
+
+    <div class="container skills-container">
+        <div id="skills" class="row">
+            <div class="col-md-12">
+                <h1 class="display-4 about-heading">Data Skills</h1>
+                <div class="card-group">
+                    <div class="card skill-card">
+                        <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-minecart-loaded" viewBox="0 0 16 16">
+                            <path d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82l1.313 7h11.17l1.313-7H1.102z"/>
+                            <path fill-rule="evenodd" d="M6 1a2.498 2.498 0 0 1 4 0c.818 0 1.545.394 2 1 .67 0 1.552.57 2 1h-2c-.314 0-.611-.15-.8-.4-.274-.365-.71-.6-1.2-.6-.314 0-.611-.15-.8-.4a1.497 1.497 0 0 0-2.4 0c-.189.25-.486.4-.8.4-.507 0-.955.251-1.228.638-.09.13-.194.25-.308.362H3c.13-.147.401-.432.562-.545a1.63 1.63 0 0 0 .393-.393A2.498 2.498 0 0 1 6 1z"/>
+                          </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Extraction</h5>
+                        <p class="card-text">Skilled at collcting data through a variety of methods, such as: APIs, web-scraping, CSVs and others</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card skill-card">
+                        <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw">
+                            <polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Transformation</h5>
+                        <p class="card-text">Cleaning, alterings and reformatting data as necessary for a given project</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card skill-card">
+                        <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+                            <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
+                          </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Visualization</h5>
+                        <p class="card-text">Creating charts, reports and dashboards using a variety of tools, such as: Tableau, Excel, Javascript and others.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-group">
+                    <div class="card skill-card">
+                        <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 463 463" style="enable-background:new 0 0 463 463;" xml:space="preserve">
+                            <path d="M151.245,222.446C148.054,237.039,135.036,248,119.5,248c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5
+                                c23.774,0,43.522-17.557,46.966-40.386c14.556-1.574,27.993-8.06,38.395-18.677c2.899-2.959,2.85-7.708-0.109-10.606
+                                c-2.958-2.897-7.707-2.851-10.606,0.108C184.947,202.829,172.643,208,159.5,208c-26.743,0-48.5-21.757-48.5-48.5
+                                c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5C96,191.715,120.119,218.384,151.245,222.446z"/>
+                            <path d="M183,287.5c0-4.143-3.358-7.5-7.5-7.5c-35.014,0-63.5,28.486-63.5,63.5c0,0.362,0.013,0.725,0.019,1.088
+                                C109.23,344.212,106.39,344,103.5,344c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5c26.743,0,48.5,21.757,48.5,48.5
+                                c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5c0-26.611-16.462-49.437-39.731-58.867c-0.178-1.699-0.269-3.418-0.269-5.133
+                                c0-26.743,21.757-48.5,48.5-48.5C179.642,295,183,291.643,183,287.5z"/>
+                            <path d="M439,223.5c0-17.075-6.82-33.256-18.875-45.156c1.909-6.108,2.875-12.426,2.875-18.844
+                                c0-30.874-22.152-56.659-51.394-62.329C373.841,91.6,375,85.628,375,79.5c0-19.557-11.883-36.387-28.806-43.661
+                                C317.999,13.383,287.162,0,263.5,0c-13.153,0-24.817,6.468-32,16.384C224.317,6.468,212.653,0,199.5,0
+                                c-23.662,0-54.499,13.383-82.694,35.839C99.883,43.113,88,59.943,88,79.5c0,6.128,1.159,12.1,3.394,17.671
+                                C62.152,102.841,40,128.626,40,159.5c0,6.418,0.965,12.735,2.875,18.844C30.82,190.244,24,206.425,24,223.5
+                                c0,13.348,4.149,25.741,11.213,35.975C27.872,270.087,24,282.466,24,295.5c0,23.088,12.587,44.242,32.516,55.396
+                                C56.173,353.748,56,356.626,56,359.5c0,31.144,20.315,58.679,49.79,68.063C118.611,449.505,141.965,463,167.5,463
+                                c27.995,0,52.269-16.181,64-39.674c11.731,23.493,36.005,39.674,64,39.674c25.535,0,48.889-13.495,61.71-35.437
+                                c29.475-9.385,49.79-36.92,49.79-68.063c0-2.874-0.173-5.752-0.516-8.604C426.413,339.742,439,318.588,439,295.5
+                                c0-13.034-3.872-25.413-11.213-36.025C434.851,249.241,439,236.848,439,223.5z M167.5,448c-21.029,0-40.191-11.594-50.009-30.256
+                                c-0.973-1.849-2.671-3.208-4.688-3.751C88.19,407.369,71,384.961,71,359.5c0-3.81,0.384-7.626,1.141-11.344
+                                c0.702-3.447-1.087-6.92-4.302-8.35C50.32,332.018,39,314.626,39,295.5c0-8.699,2.256-17.014,6.561-24.379
+                                C56.757,280.992,71.436,287,87.5,287c4.142,0,7.5-3.357,7.5-7.5s-3.358-7.5-7.5-7.5C60.757,272,39,250.243,39,223.5
+                                c0-14.396,6.352-27.964,17.428-37.221c2.5-2.09,3.365-5.555,2.14-8.574C56.2,171.869,55,165.744,55,159.5
+                                c0-26.743,21.757-48.5,48.5-48.5s48.5,21.757,48.5,48.5c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5
+                                c0-33.642-26.302-61.243-59.421-63.355C104.577,91.127,103,85.421,103,79.5c0-13.369,8.116-24.875,19.678-29.859
+                                c0.447-0.133,0.885-0.307,1.308-0.527C127.568,47.752,131.447,47,135.5,47c12.557,0,23.767,7.021,29.256,18.325
+                                c1.81,3.727,6.298,5.281,10.023,3.47c3.726-1.809,5.28-6.296,3.47-10.022c-6.266-12.903-18.125-22.177-31.782-25.462
+                                C165.609,21.631,184.454,15,199.5,15c13.509,0,24.5,10.99,24.5,24.5v97.051c-6.739-5.346-15.25-8.551-24.5-8.551
+                                c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5c13.509,0,24.5,10.99,24.5,24.5v180.279c-9.325-12.031-22.471-21.111-37.935-25.266
+                                c-3.999-1.071-8.114,1.297-9.189,5.297c-1.075,4.001,1.297,8.115,5.297,9.189C206.8,343.616,224,366.027,224,391.5
+                                C224,422.654,198.654,448,167.5,448z M395.161,339.807c-3.215,1.43-5.004,4.902-4.302,8.35c0.757,3.718,1.141,7.534,1.141,11.344
+                                c0,25.461-17.19,47.869-41.803,54.493c-2.017,0.543-3.716,1.902-4.688,3.751C335.691,436.406,316.529,448,295.5,448
+                                c-31.154,0-56.5-25.346-56.5-56.5c0-2.109-0.098-4.2-0.281-6.271c0.178-0.641,0.281-1.314,0.281-2.012V135.5
+                                c0-13.51,10.991-24.5,24.5-24.5c4.142,0,7.5-3.357,7.5-7.5s-3.358-7.5-7.5-7.5c-9.25,0-17.761,3.205-24.5,8.551V39.5
+                                c0-13.51,10.991-24.5,24.5-24.5c15.046,0,33.891,6.631,53.033,18.311c-13.657,3.284-25.516,12.559-31.782,25.462
+                                c-1.81,3.727-0.256,8.214,3.47,10.022c3.726,1.81,8.213,0.257,10.023-3.47C303.733,54.021,314.943,47,327.5,47
+                                c4.053,0,7.933,0.752,11.514,2.114c0.422,0.22,0.86,0.393,1.305,0.526C351.883,54.624,360,66.13,360,79.5
+                                c0,5.921-1.577,11.627-4.579,16.645C322.302,98.257,296,125.858,296,159.5c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5
+                                c0-26.743,21.757-48.5,48.5-48.5s48.5,21.757,48.5,48.5c0,6.244-1.2,12.369-3.567,18.205c-1.225,3.02-0.36,6.484,2.14,8.574
+                                C417.648,195.536,424,209.104,424,223.5c0,26.743-21.757,48.5-48.5,48.5c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5
+                                c16.064,0,30.743-6.008,41.939-15.879c4.306,7.365,6.561,15.68,6.561,24.379C424,314.626,412.68,332.018,395.161,339.807z"/>
+                            <path d="M359.5,240c-15.536,0-28.554-10.961-31.745-25.554C358.881,210.384,383,183.715,383,151.5c0-4.143-3.358-7.5-7.5-7.5
+                                s-7.5,3.357-7.5,7.5c0,26.743-21.757,48.5-48.5,48.5c-13.143,0-25.447-5.171-34.646-14.561c-2.898-2.958-7.647-3.007-10.606-0.108
+                                s-3.008,7.647-0.109,10.606c10.402,10.617,23.839,17.103,38.395,18.677C315.978,237.443,335.726,255,359.5,255
+                                c4.142,0,7.5-3.357,7.5-7.5S363.642,240,359.5,240z"/>
+                            <path d="M335.5,328c-2.89,0-5.73,0.212-8.519,0.588c0.006-0.363,0.019-0.726,0.019-1.088c0-35.014-28.486-63.5-63.5-63.5
+                                c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5,7.5,7.5c26.743,0,48.5,21.757,48.5,48.5c0,1.714-0.091,3.434-0.269,5.133
+                                C288.462,342.063,272,364.889,272,391.5c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5c0-26.743,21.757-48.5,48.5-48.5
+                                c4.142,0,7.5-3.357,7.5-7.5S339.642,328,335.5,328z"/>
+                   </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Machine Learning</h5>
+                        <p class="card-text">Employing intelligent algorithms using Scikit Learn and Deep Learning Neural Networks using TensorFlow</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card skill-card">
+                        <svg class="skill-icon" height="50" width="50" viewbox="0 0 50 50">
+                            <path style="stroke:black; stroke-width:6; fill: none;"
+                                d="M0,15 21,15 M30,3 50,3 M29,35 50,35" >
+                            </path>
+                            <path style="stroke:black; stroke-width:2; fill: none;"
+                                d="M20,15 20,30 1,30 1,15 M30,0 30,15, 49,15 49,0 M30,35 30,49 49,49 49,35" >
+                            </path>
+                            <path style="stroke:black; stroke-width:2; fill: none;"
+                                d="M20,19 25,19 25,8 30,8 M20,25 25,25 25,40 30,40" >
+                            </path>
+                        </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Data Modeling</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card skill-card">
+                      <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 512 512" width="50" height="50">
+                        <path d="M496,376V40a24.028,24.028,0,0,0-24-24H40A24.028,24.028,0,0,0,16,40V376a24.028,24.028,0,0,0,24,24H198.556l-13.333,80H152a8,8,0,0,0,0,16H360a8,8,0,0,0,0-16H326.777l-13.333-80h68.613l69.589,69.589a24,24,0,0,0,33.941,0h0a24.028,24.028,0,0,0,0-33.941L449.939,400H472A24.028,24.028,0,0,0,496,376ZM321.541,316.856l11.313-11.314,33.94,33.94L355.48,350.8Zm-13.765-8.862-21.852-5.463a23.893,23.893,0,0,1-17.565-17.886l-9.686-41.972,41.972,9.686a23.893,23.893,0,0,1,17.886,17.565l5.463,21.852Zm32.3-17.855-6.024-24.1a39.825,39.825,0,0,0-29.812-29.274L249.8,224.205a8,8,0,0,0-9.594,9.594l12.564,54.443A40,40,0,0,0,260.315,304H32V96H480V304H353.939ZM40,32H472a8.009,8.009,0,0,1,8,8V80H32V40A8.009,8.009,0,0,1,40,32ZM310.556,480H201.444l13.333-80h82.446ZM40,384a8.009,8.009,0,0,1-8-8V320H289.828l16.306,4.076L366.057,384Zm434.273,74.275a8,8,0,0,1-11.314,0L366.794,362.11,378.108,350.8l96.165,96.165A8.01,8.01,0,0,1,474.273,458.275ZM369.939,320H480v56a8.009,8.009,0,0,1-8,8H433.939Z"/><path d="M272,336H240a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Z"/><circle cx="56" cy="56" r="8"/><circle cx="88" cy="56" r="8"/><circle cx="120" cy="56" r="8"/><path d="M104,128h16a8,8,0,0,0,0-16H104a8,8,0,0,0,0,16Z"/><path d="M152,128h16a8,8,0,0,0,0-16H152a8,8,0,0,0,0,16Z"/><path d="M72,272H64v-8a8,8,0,0,0-16,0v16a8,8,0,0,0,8,8H72a8,8,0,0,0,0-16Z"/><path d="M120,272H104a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z"/><path d="M168,272H152a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z"/><path d="M216,112H200a8,8,0,0,0,0,16h8v8a8,8,0,0,0,16,0V120A8,8,0,0,0,216,112Z"/><path d="M216,160a8,8,0,0,0-8,8v16a8,8,0,0,0,16,0V168A8,8,0,0,0,216,160Z"/><path d="M216,208a8,8,0,0,0-8,8v16a8,8,0,0,0,16,0V216A8,8,0,0,0,216,208Z"/><path d="M216,256a8,8,0,0,0-8,8v8h-8a8,8,0,0,0,0,16h16a8,8,0,0,0,8-8V264A8,8,0,0,0,216,256Z"/><path d="M56,144a8,8,0,0,0,8-8v-8h8a8,8,0,0,0,0-16H56a8,8,0,0,0-8,8v16A8,8,0,0,0,56,144Z"/><path d="M56,192a8,8,0,0,0,8-8V168a8,8,0,0,0-16,0v16A8,8,0,0,0,56,192Z"/><path d="M56,240a8,8,0,0,0,8-8V216a8,8,0,0,0-16,0v16A8,8,0,0,0,56,240Z"/><path d="M296,192H248a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16Z"/><path d="M456,192H328a8,8,0,0,0,0,16H456a8,8,0,0,0,0-16Z"/><path d="M456,224H344a8,8,0,0,0,0,16H456a8,8,0,0,0,0-16Z"/><path d="M456,112H248a8,8,0,0,0-8,8v48a8,8,0,0,0,8,8H456a8,8,0,0,0,8-8V120A8,8,0,0,0,456,112Zm-8,48H256V128H448Z"/><path d="M192,152a8,8,0,0,0-8-8H88a8,8,0,0,0-8,8v96a8,8,0,0,0,8,8h96a8,8,0,0,0,8-8Zm-16,88H96V160h80Z"/>
+                      </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Web Design</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="about-heading">Programming & Scripting Languages</h1>
+                <div class="card-group">
+                    <div class="card">
+                        <svg class="skill-icon" height="50" viewBox="0 0 512 512" width="50" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m437 146h-71v-71c0-41.355469-33.644531-75-75-75h-70c-41.355469 0-75 33.644531-75 75v71h-71c-41.355469 0-75 33.644531-75 75v70c0 41.355469 33.644531 75 75 75h71v71c0 41.355469 33.644531 75 75 75h70c41.355469 0 75-33.644531 75-75v-71h71c41.355469 0 75-33.644531 75-75v-70c0-41.355469-33.644531-75-75-75zm-362 190c-24.8125 0-45-20.1875-45-45v-70c0-24.8125 20.1875-45 45-45h181c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15h-80v-71c0-24.8125 20.1875-45 45-45h70c24.8125 0 45 20.1875 45 45v166h-175c-8.285156 0-15 6.714844-15 15v80zm407-45c0 24.8125-20.1875 45-45 45h-181c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h80v71c0 24.8125-20.1875 45-45 45h-70c-24.8125 0-45-20.1875-45-45v-166h175c8.285156 0 15-6.714844 15-15v-80h71c24.8125 0 45 20.1875 45 45zm0 0"/><path d="m236 90c0 8.285156-6.714844 15-15 15s-15-6.714844-15-15 6.714844-15 15-15 15 6.714844 15 15zm0 0"/><path d="m306 422c0 8.285156-6.714844 15-15 15s-15-6.714844-15-15 6.714844-15 15-15 15 6.714844 15 15zm0 0"/>
+                        </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Skilled at collcting data through a variety of methods, such as: APIs, web-scraping, CSVs and others</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <svg class="skill-icon" height="50" width="50" viewBox="-30 0 512 512.00001" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m31.839844 447.847656 195.148437 64.152344 194.125-64.167969 31.835938-447.832031h-452.949219zm388.917968-417.863281-28.128906 395.683594-165.667968 54.761719-166.640626-54.78125-28.128906-395.664063zm0 0"/><path d="m282.246094 286.835938-3.558594 50.394531-51.746094 17.171875-52.707031-17.226563-1.480469-20.359375h-89.972656l6.003906 86.625 138.210938 45.8125 137.148437-45.832031 14.726563-206.535156h-214.476563l-3.292969-46.972657h220.976563l6.410156-89.949218h-324.007812l15.890625 226.871094zm74.046875-196.886719-2.136719 29.980469h-225.214844l7.5 106.941406h210.234375l-11.015625 154.453125-108.707031 36.328125-109.644531-36.34375-2.394532-34.507813h29.960938l.917969 12.621094 81.21875 26.546875 80.175781-26.601562 7.234375-102.515626h-206.09375l-11.691406-166.902343zm0 0"/>
+                        </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">HTML 5 / CSS</h5>
+                        <p class="card-text">Cleaning, alterings and reformatting data as necessary for a given project</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <svg class="skill-icon" height="50" width="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <path d="M503.467,0H8.533C3.814,0,0,3.823,0,8.533v494.933C0,508.177,3.814,512,8.533,512h494.933
+                                c4.719,0,8.533-3.823,8.533-8.533V8.533C512,3.823,508.186,0,503.467,0z M494.933,494.933H17.067V17.067h477.867V494.933z"/>
+                            <path d="M392.533,452.267c-32.93,0-59.733-26.795-59.733-59.733c0-4.71-3.814-8.533-8.533-8.533
+                                c-4.719,0-8.533,3.823-8.533,8.533c0,42.342,34.449,76.8,76.8,76.8c42.351,0,76.8-34.458,76.8-76.8
+                                c0-42.342-34.449-76.8-76.8-76.8c-32.93,0-59.733-26.795-59.733-59.733s26.803-59.733,59.733-59.733
+                                c32.93,0,59.733,26.795,59.733,59.733c0,4.71,3.814,8.533,8.533,8.533c4.719,0,8.533-3.823,8.533-8.533
+                                c0-42.342-34.449-76.8-76.8-76.8c-42.351,0-76.8,34.458-76.8,76.8s34.449,76.8,76.8,76.8c32.93,0,59.733,26.795,59.733,59.733
+                                C452.267,425.472,425.464,452.267,392.533,452.267z"/>
+                            <path d="M213.333,469.333c42.351,0,76.8-34.458,76.8-76.8v-204.8c0-4.71-3.814-8.533-8.533-8.533
+                                c-4.719,0-8.533,3.823-8.533,8.533v204.8c0,32.939-26.803,59.733-59.733,59.733c-32.93,0-59.733-26.795-59.733-59.733
+                                c0-4.71-3.814-8.533-8.533-8.533s-8.533,3.823-8.533,8.533C136.533,434.876,170.982,469.333,213.333,469.333z"/>
+                        </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">Javascript</h5>
+                        <p class="card-text">Creating charts, reports and dashboards using a variety of tools, such as: Tableau, Excel, Javascript and others.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-group">
+                    <div class="card">
+                        <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+                          </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">VBA</h5>
+                        <p class="card-text">Employing intelligent algorithms using Scikit Learn and Deep Learning Neural Networks using TensorFlow</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <svg class="skill-icon" height="50" width="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <path d="M256,0C136.384,0,42.667,42.176,42.667,96S136.384,192,256,192s213.333-42.176,213.333-96S375.616,0,256,0z M256,170.667
+                               c-113.152,0-192-39.36-192-74.667s78.848-74.667,192-74.667S448,60.693,448,96S369.152,170.667,256,170.667z"/>
+                            <path d="M458.667,192c-5.888,0-10.667,4.779-10.667,10.667c0,35.307-78.848,74.667-192,74.667s-192-39.36-192-74.667
+                               C64,196.779,59.221,192,53.333,192s-10.667,4.779-10.667,10.667c0,53.824,93.717,96,213.333,96s213.333-42.176,213.333-96
+                               C469.333,196.779,464.555,192,458.667,192z"/>
+                            <path d="M458.667,298.667c-5.888,0-10.667,4.779-10.667,10.667C448,344.64,369.152,384,256,384S64,344.64,64,309.333
+                               c0-5.888-4.779-10.667-10.667-10.667s-10.667,4.779-10.667,10.667c0,53.824,93.717,96,213.333,96s213.333-42.176,213.333-96
+                               C469.333,303.445,464.555,298.667,458.667,298.667z"/>
+                            <path d="M458.667,85.333C452.779,85.333,448,90.112,448,96v320c0,35.307-78.848,74.667-192,74.667S64,451.307,64,416V96
+                               c0-5.888-4.779-10.667-10.667-10.667S42.667,90.112,42.667,96v320c0,53.824,93.717,96,213.333,96s213.333-42.176,213.333-96V96
+                               C469.333,90.112,464.555,85.333,458.667,85.333z"/>
+                        </svg>
+                      <div class="card-body">
+                        <h5 class="card-title">SQL</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="50" viewBox="0 0 24 24" width="50"><g><rect fill="none" height="24" width="24"/></g><g>
+                            <path d="M6.05,8.05c-2.73,2.73-2.73,7.17,0,9.9C7.42,19.32,9.21,20,11,20s3.58-0.68,4.95-2.05C19.43,14.47,20,4,20,4 S9.53,4.57,6.05,8.05z M14.54,16.54C13.59,17.48,12.34,18,11,18c-0.89,0-1.73-0.25-2.48-0.68c0.92-2.88,2.62-5.41,4.88-7.32 c-2.63,1.36-4.84,3.46-6.37,6c-1.48-1.96-1.35-4.75,0.44-6.54C9.21,7.72,14.04,6.65,17.8,6.2C17.35,9.96,16.28,14.79,14.54,16.54z"/></g></svg>
+                      <div class="card-body">
+                        <h5 class="card-title">mongoDB</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div>Python & HTML5 Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
