@@ -5,6 +5,7 @@ body {
 .profile-pic {    
     width: 33%;
     float: right;
+    overflow-y: hidden;
 }
 
 .top-row {
@@ -45,7 +46,7 @@ body {
 /* PORTFOLIO section */
 /* ====================================== */
 .page-head {
-  /* background-image: linear-gradient(to right, lightblue , lightblue, white); */
+  background-image: linear-gradient(to right, lightblue, lightblue, lightcyan);
   background-color: lightblue;
 }
 
@@ -55,13 +56,12 @@ body {
 
 .image-container {
   position: relative;
+  height: 200px;
+  overflow-y: hidden;
 }
 
 .image-fade {
   opacity: 1;
-  /* display: block;
-  width: 100%;
-  height: auto; */
   transition: .5s ease;
   backface-visibility: hidden;
 }
