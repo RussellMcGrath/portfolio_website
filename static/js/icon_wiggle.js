@@ -1,0 +1,28 @@
+var icon = d3.selectAll(".skill-icon")
+
+icon.on("mouseover", function(){
+    d3.select(this)
+        .transition()
+        .duration(50)
+        .attr("height","60")
+        .attr("width","60")
+        // .attr("transform","rotate(10)")
+        // .transition()
+        // .duration(75)
+        // .attr("transform","rotate(-10)")
+        // .transition()
+        // .duration(75)
+        // .attr("transform","rotate(10)")
+        // .transition()
+        // .duration(75)
+        // .attr("transform","rotate(0)")
+})
+
+icon.on("mouseout", function(){
+    d3.select(this)
+        .transition()
+        .duration(100)
+        .attr("height","50")
+        .attr("width","50")
+        // .attr("transform","rotate(0)")
+})
