@@ -1,5 +1,23 @@
+.nav-name {
+  font-size: 20pt;
+  border-style: dotted;
+  border-radius: 20px;
+  padding-left: 9px;
+  padding-right: 9px;
+  color: darkblue
+}
+
+.nav-item {
+  color: black !important;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 25%;
+}
+
 body {
-    background-color: darkgray;
+    background-color: darkgray;    
 }
 
 .profile-pic {    
@@ -27,6 +45,10 @@ body {
 .about-heading {
   text-align: center;
   background-color: lightblue;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 28pt;
+  font-weight: 400;
 }
 
 .skill-card {
