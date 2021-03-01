@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildfires</title>
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- -- D3 -- -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <a class="navbar-brand" href="#">
+            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        </a> -->
+        <div class="nav-name">R.McGrath</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="about.html">About Me</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" href="static/files/Russell McGrath - Resume.pdf">Resumé</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid wildfire-jumbo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="display-4">Mapping Wildfires</h1>
+            </div>
+            <div class="col-md-6">
+              <div class="skills-box">
+                <div class="skills-header">
+                  Skills Demonstrated
+                </div>
+                <div class="skills-list">
+                  <ul>
+                    <li>Data Scraping</li>
+                    <li>Data Transformation</li>
+                    <li>Data Visualization (mapping)</li>
+                    <li>API Creation</li>
+                    <li>API Calls</li>
+                    <li>SQL (PostgreSQL)</li>
+                    <li>JSON</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div id="map"></div>
+    </div>  
+
+
+    
+    
+    <!-- Leaflet JS-->
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+        crossorigin="">
+    </script>  
+    <!-- JS -->
+    <script type="text/javascript" src="static/js/markers.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
