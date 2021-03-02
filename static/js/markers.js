@@ -80,10 +80,10 @@ var unknownMarkers = [];
 var otherMarkers= [];
 
 // get data from api
-d3.json(link, response => {
-  console.log(response)
+
+  console.log(firedata)
   
-  createMarkerMap(response)
+  createMarkerMap(firedata)
   createControls()
   
   buildLegend(myMap);
@@ -93,7 +93,6 @@ d3.json(link, response => {
   // add scale to map
   L.control.scale().addTo(myMap);
 
-});
 
 function createMarkerMap(response) {
   for (i=0;i<response.length;i++) {

@@ -145,3 +145,8 @@ body {
 .skills-list {
   column-count: 2;
 }
+
+#map {
+    height: 500px;
+    width: 80%;
+}
