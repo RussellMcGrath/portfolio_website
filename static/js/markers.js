@@ -1,5 +1,3 @@
-var API_KEY = "pk.eyJ1Ijoicm1jZ3JhdGgiLCJhIjoiY2tpNnBvbTAzMDI2NDJ3bjByZjBzenh1YSJ9.zQHxk3OXjzyF2DG0PYDKlw"
-
 // define colored icon objects
 var greenIcon = L.icon({
   iconUrl: 'static/images/green.png',
@@ -145,7 +143,7 @@ function createControls() {
   };
 
   myMap = L.map("map", {
-    center: [39, -110],
+    center: [40, -110],
     zoom: 5,
     layers: [satelliteMap,responseLayer,prescribedLayer,humanLayer,lightningLayer,unknownLayer,otherLayer]
   });

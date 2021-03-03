@@ -12,12 +12,11 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+    <!-- -- D3 -- -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- <a class="navbar-brand" href="#">
-            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-        </a> -->
         <div class="nav-name">R.McGrath</div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,11 +28,15 @@
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
             <a class="nav-item nav-link" href="static/files/Russell McGrath - Resume.pdf">Resumé</a>
-
           </div>
         </div>
       </nav>
-    
+    <!-- <div class="jumbotron jumbotron-fluid page-head">
+        <div class="container">
+          <h1 class="display-4">Project Portfolio</h1>
+          <p class="lead">A collection some of my Data Science projects</p>
+        </div>
+    </div> -->
     <div class="container">
         <div class="row top-row">
             <div class="col-12-md">
@@ -50,7 +53,9 @@
                     </p>
                 </div>
                 <div class="jumbotron">
-                  <img class="profile-pic" src="static/images/portfolio_thumbnail.png">
+                  <div class="img-container">
+                    <img class="section-pic" src="static/images/portfolio_thumbnail.png">
+                  </div>
                   <h1 class="display-4">Portfolio</h1>
                   <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
                   <hr class="my-4">
@@ -60,21 +65,24 @@
                   </p>
                 </div>
                 <div class="jumbotron">
-                  <img class="profile-pic" src="#">
+                  <div class="img-container">
+                    <img class="section-pic" src="static/images/connect_thumbnail.jpg">
+                  </div>                  
                   <h1 class="display-4">Connect</h1>
-                  <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
                   <hr class="my-4">
-                  <p>Learn how to connect with me</p>
+                  <p>You can connect with me in a variety of ways.</p>
                   <p class="lead">
                     <a class="btn btn-primary btn-lg" href="contact.html" role="button">Connect with me</a>
                   </p>
                 </div>
                 <div class="jumbotron">
-                  <img class="profile-pic" src="static/images/resume_thumbnail.JPG">
+                  <div class="img-container">
+                    <img class="section-pic" src="static/images/resume_thumbnail.JPG">
+                  </div>
                   <h1 class="display-4">Resumé</h1>
                   <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
                   <hr class="my-4">
-                  <p>My resume in a printable/downloadable .pdf format</p>
+                  <p>My resume in printable/downloadable .pdf format</p>
                   <p class="lead">
                     <a class="btn btn-primary btn-lg" href="static/files/Russell McGrath - Resume.pdf" role="button">View Resume</a>
                   </p>
@@ -83,6 +91,8 @@
             </div>
         </div>
     </div>
+    
+    <script type="text/javascript" src="static/js/footer.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
