@@ -222,12 +222,12 @@ function buildLegend(mapObject) {
     // create div to hold legend
     var div = L.DomUtil.create("div", "info legend");
     // create list of legend labels
-    var causes = ["Burned Area Emergency Response","Human","Lightning","Prescribed","Unknown","other"];
+    var causes = ["Burned Area Response","Human","Lightning","Prescribed","Unknown","other"];
     // create list of marker names
     var markerNames = ["pink","red","yellow","green","blue","gray"]
     // create legend html content
-    var legendInfo = `<h3>Fire Cause</h3><hr>\
-                      <ul>\
+    var legendInfo = `<h4 class="legend-header">Fire Cause</h4><hr class="legend-header">\
+                      <ul class=legend-list>\
                         <li><img id="response" src="static/images/${markerNames[0]}.png" style="width:30px;height:30px;opacity:1.0;">${causes[0]}</li>\
                         <li><img id="human" src="static/images/${markerNames[1]}.png" style="width:30px;height:30px;opacity:1.0;">${causes[1]}</li>\
                         <li><img id="lightning" src="static/images/${markerNames[2]}.png" style="width:30px;height:30px;opacity:1.0;">${causes[2]}</li>\
