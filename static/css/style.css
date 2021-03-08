@@ -90,6 +90,12 @@ footer {
   text-align: center;
 }
 
+.other-skills {
+  column-count: 3;
+  margin-left: 10%;
+  font-size: 18pt;
+}
+
 /* PORTFOLIO section */
 /* ====================================== */
 .page-head {
@@ -145,10 +151,8 @@ footer {
   text-align: center;
 }
 
-/* PROJECTS headers */
+/* PROJECTS pages */
 /* ============================ */
-
-
 .skills-box {
   background-color: white;
   color: black;
@@ -165,6 +169,10 @@ footer {
 
 .skills-list {
   column-count: 2;
+}
+
+.page-body {
+  background-color: white;
 }
 
 /* WILDFIRES project */
@@ -195,8 +203,6 @@ footer {
   padding-right: 2px;
 }
 
-
-
 /* APPARTMENTS project */
 /* ============================ */
 .appartments-jumbo {
@@ -216,4 +222,10 @@ footer {
   background-size: 100%;
   background-position: 0% 70%;
   color: white;
+}
+
+.project-h1 {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  color: darkblue;
 }
