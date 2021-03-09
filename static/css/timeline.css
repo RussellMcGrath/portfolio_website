@@ -150,4 +150,7 @@
     .content h2 {
         text-align: left;
     }
+    .left .badge {
+        float: right;
+    }
   }
