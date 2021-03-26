@@ -205,10 +205,12 @@ footer {
   background-color: white;
   opacity: .8;
   border-radius: 8px;
+  width: 45%;
 }
 
 .legend-header {
   margin: 2px;
+  text-align: center;
 }
 
 .legend-list {
