@@ -98,7 +98,7 @@ function createMarkerMap(response) {
     fire = response[i]
     if (fire.acres === "n/a") {
       var marker = L.marker([fire.lat,fire.lon], markerStyler(fire))//.addTo(myMap);
-      marker.bindPopup(`<strong>${fire.title}</strong><hr>${fire.cause}<br><a href="${fire.link_url}">Click for details</a>`)
+      marker.bindPopup(`<strong>${fire.title}</strong><hr>${fire.cause}<br><a target="_blank" href="${fire.link_url}">Click for details</a>`)
       marker.on("click", function() {myMap.setView([this._latlng.lat, this._latlng.lng],9)})
       marker.on("click", function() {myMap.setView([39,-110],5)})
       markerSorter(fire,marker);
@@ -106,8 +106,8 @@ function createMarkerMap(response) {
       fire.acres = +fire.acres      
       var marker = L.marker([fire.lat,fire.lon], markerStyler(fire))//.addTo(myMap)
       var burnArea = L.circle([fire.lat,fire.lon], burnAreaStyler(fire))//.addTo(myMap)
-      marker.bindPopup(`<strong>${fire.title}</strong><hr>Size: ${fire.acres} acres<br>Cause: ${fire.cause}<br><a href="${fire.link_url}">Click for details</a>`)
-      burnArea.bindPopup(`<strong>${fire.title}</strong><hr>Size: ${fire.acres} acres<br>Cause: ${fire.cause}<br><a href="${fire.link_url}">Click for details</a>`)
+      marker.bindPopup(`<strong>${fire.title}</strong><hr>Size: ${fire.acres} acres<br>Cause: ${fire.cause}<br><a target="_blank" href="${fire.link_url}">Click for details</a>`)
+      burnArea.bindPopup(`<strong>${fire.title}</strong><hr>Size: ${fire.acres} acres<br>Cause: ${fire.cause}<br><a target="_blank" href="${fire.link_url}">Click for details</a>`)
       marker.on("click", function() {myMap.setView([this._latlng.lat, this._latlng.lng],9)})
       burnArea.on("click", function() {myMap.setView([this._latlng.lat, this._latlng.lng],9)})
       marker.on("click", function() {myMap.setView([39,-110],5)})
