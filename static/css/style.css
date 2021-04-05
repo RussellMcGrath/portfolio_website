@@ -225,6 +225,8 @@ footer {
 
 .wildfire-h1 {
   margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* .wildfire-h3 {
@@ -236,7 +238,7 @@ footer {
   font-size: 12.5pt;
 }
 
-.card-group {
+.wildfire-cards {
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -245,6 +247,14 @@ footer {
   object-fit: contain;
   margin-top: 10px;
   height: 250px;
+}
+
+.method {
+  margin-left: 4%;
+}
+
+.method h4 {
+  text-decoration: underline;
 }
 
 /* APPARTMENTS project */
@@ -257,6 +267,17 @@ footer {
 
 .demo-gif {
   width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.appartments-container {
+  background-color: white;
+}
+
+.appartments-container p {
+  margin-left: 10px;
 }
 
 /* COLLEGE project */
@@ -278,8 +299,6 @@ footer {
   padding: 5pt;
   padding-left: 10pt;
   padding-right: 10pt;
-
-
 }
 
 .project-h1 {
